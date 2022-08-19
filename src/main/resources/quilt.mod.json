@@ -1,14 +1,14 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "xyz.limepot",
+		"id": "totv",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Taste of The Void",
+			"description": "Research rocketry, fly them to space, and discover the great beyond!",
 			"contributors": {
-				"Your name here": "Owner"
+				"Your name here": "LimePotato"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
