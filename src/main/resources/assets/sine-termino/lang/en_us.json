@@ -1,0 +1,13 @@
+{
+  "block.sine-termino.dev_ship": "Dev Ship",
+  "item.sine-termino.copper_ingot": "Copper Ingot",
+  "item.sine-termino.aluminium_ingot": "Aluminium Ingot",
+  "block.sine-termino.arc_furnace": "Arc Furnace",
+  "item.sine-termino.tin_ingot": "Tin Ingot",
+  "block.sine-termino.copper_ore": "Copper Ore",
+  "block.sine-termino.tin_ore": "Tin Ore",
+  "block.sine-termino.engineering_table": "Engineering Table",
+  "item.sine-termino.bronze_ingot": "Bronze Ingot",
+  "itemGroup.sine-termino": "Sine Termino",
+  "block.sine-termino.aluminium_ore": "Aluminium Ore"
+}

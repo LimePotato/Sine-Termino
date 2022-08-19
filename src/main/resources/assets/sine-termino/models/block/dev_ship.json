@@ -1,0 +1,14 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "parts": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "taste_of_the_void:models/item/dev_ship.obj",
+      "ambientToFullbright": true
+    }
+  },
+  "textures": {
+    "particle": "taste_of_the_void:blocks/shiup"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "taste_of_the_void:block/engineering_table"
+    },
+    "facing=east": {
+      "model": "taste_of_the_void:block/engineering_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "taste_of_the_void:block/engineering_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "taste_of_the_void:block/engineering_table",
+      "y": 270
+    }
+  }
+}

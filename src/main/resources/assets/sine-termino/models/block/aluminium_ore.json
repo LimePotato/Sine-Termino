@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "taste_of_the_void:blocks/alumminium_ore",
+    "up": "taste_of_the_void:blocks/alumminium_ore",
+    "north": "taste_of_the_void:blocks/alumminium_ore",
+    "east": "taste_of_the_void:blocks/alumminium_ore",
+    "south": "taste_of_the_void:blocks/alumminium_ore",
+    "west": "taste_of_the_void:blocks/alumminium_ore",
+    "particle": "taste_of_the_void:blocks/alumminium_ore"
+  }
+}

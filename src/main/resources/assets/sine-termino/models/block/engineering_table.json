@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "taste_of_the_void:blocks/engineering_table_alt",
+    "up": "taste_of_the_void:blocks/engineering_table_top",
+    "north": "taste_of_the_void:blocks/arc_furnace_side",
+    "east": "taste_of_the_void:blocks/arc_furnace_side",
+    "south": "taste_of_the_void:blocks/arc_furnace_side",
+    "west": "taste_of_the_void:blocks/arc_furnace_side",
+    "particle": "taste_of_the_void:blocks/engineering_table_alt"
+  }
+}

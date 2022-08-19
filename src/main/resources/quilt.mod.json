@@ -2,24 +2,24 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "xyz.limepot",
-		"id": "totv",
-		"version": "${version}",
+		"id": "sinetermino",
+		"version": "InDev 0.0.1+1.19",
 		"metadata": {
-			"name": "Taste of The Void",
+			"name": "Sine Termino",
 			"description": "Research rocketry, fly them to space, and discover the great beyond!",
 			"contributors": {
-				"Your name here": "LimePotato"
+				"LimePotato": "Developer & Conceptor"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://limepot.xyz/sine-termino.html",
+				"issues": "https://github.com/LimePotato/Sine-Termino/issues",
+				"sources": "https://github.com/LimePotato/Sine-Termino"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/sine-termino/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "xyz.limepot.sine_termino.SineTermino"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "sine_termino.mixins.json"
 }
