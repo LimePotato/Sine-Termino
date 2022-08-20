@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "taste_of_the_void:block/tin_ore"
+      "model": "sine-termino:block/tin_ore"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "taste_of_the_void:block/dev_ship"
+      "model": "sine-termino:block/dev_ship"
     }
   }
 }

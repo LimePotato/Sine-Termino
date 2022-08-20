@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "taste_of_the_void:blocks/arc_furnace_bottom",
-    "up": "taste_of_the_void:blocks/arc_furnace_bottom",
-    "north": "taste_of_the_void:blocks/arc_furnace_front",
-    "east": "taste_of_the_void:blocks/arc_furnace_bottom",
-    "south": "taste_of_the_void:blocks/arc_furnace_bottom",
-    "west": "taste_of_the_void:blocks/arc_furnace_bottom",
-    "particle": "taste_of_the_void:blocks/arc_furnace_bottom"
+    "down": "sine-termino:blocks/arc_furnace_bottom",
+    "up": "sine-termino:blocks/arc_furnace_bottom",
+    "north": "sine-termino:blocks/arc_furnace_front",
+    "east": "sine-termino:blocks/arc_furnace_bottom",
+    "south": "sine-termino:blocks/arc_furnace_bottom",
+    "west": "sine-termino:blocks/arc_furnace_bottom",
+    "particle": "sine-termino:blocks/arc_furnace_bottom"
   }
 }

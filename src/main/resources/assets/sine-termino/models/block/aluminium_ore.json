@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "taste_of_the_void:blocks/alumminium_ore",
-    "up": "taste_of_the_void:blocks/alumminium_ore",
-    "north": "taste_of_the_void:blocks/alumminium_ore",
-    "east": "taste_of_the_void:blocks/alumminium_ore",
-    "south": "taste_of_the_void:blocks/alumminium_ore",
-    "west": "taste_of_the_void:blocks/alumminium_ore",
-    "particle": "taste_of_the_void:blocks/alumminium_ore"
+    "down": "sine-termino:blocks/alumminium_ore",
+    "up": "sine-termino:blocks/alumminium_ore",
+    "north": "sine-termino:blocks/alumminium_ore",
+    "east": "sine-termino:blocks/alumminium_ore",
+    "south": "sine-termino:blocks/alumminium_ore",
+    "west": "sine-termino:blocks/alumminium_ore",
+    "particle": "sine-termino:blocks/alumminium_ore"
   }
 }

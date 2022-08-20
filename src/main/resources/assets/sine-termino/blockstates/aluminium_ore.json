@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "taste_of_the_void:block/aluminium_ore"
+      "model": "sine-termino:block/aluminium_ore"
     }
   }
 }
