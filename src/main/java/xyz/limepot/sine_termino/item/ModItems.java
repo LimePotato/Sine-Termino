@@ -5,6 +5,7 @@ import net.minecraft.util.registry.Registry;
 import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import xyz.limepot.sine_termino.SineTermino;
 
@@ -12,13 +13,13 @@ import xyz.limepot.sine_termino.SineTermino;
 public class ModItems {
 
     public static final Item TIN_INGOT = registerItem("tin_ingot", 
-        new Item(new QuiltItemSettings().group(ModItemGroup.SINETERMINO)));
+        new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
 
     public static final Item BRONZE_INGOT = registerItem("bronze_ingot", 
-        new Item(new QuiltItemSettings().group(ModItemGroup.SINETERMINO)));
+        new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
 
     public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot", 
-        new Item(new QuiltItemSettings().group(ModItemGroup.SINETERMINO)));
+        new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
 
 
 
