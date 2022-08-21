@@ -1,0 +1,19 @@
+- Engineering Table
+    - Machines
+        - Arc Furnace (bronze, steel)
+        - 
+    - Tools
+        - Steel Tools
+    - Space
+        - Engines
+            - Combustion
+            - Liquid Fuel
+            - gaseous Fuel
+            - ion
+            - 
+        - Fin
+        - Cargo
+            - Incremental Weight Capacity (Fancy descriptions (lorelore))
+        - Cockpit
+            - Incremental Passenger Capacity (fancy pantsy descriptions (lorelorelore))
+        

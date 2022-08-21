@@ -14,9 +14,8 @@ import xyz.limepot.sine_termino.SineTermino;
 
 public class ModBlocks {
 
-    public static final Block TIN_ORE = registerBlock("tin_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(.2f).requiresTool()), ItemGroup.MISC);
-    public static final Block BRONZE_ORE = registerBlock("bronze_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(.2f).requiresTool()), ItemGroup.MISC);
-    public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(.2f).requiresTool()), ItemGroup.MISC);
+    public static final Block TIN_ORE = registerBlock("tin_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
+    public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
 
     
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
