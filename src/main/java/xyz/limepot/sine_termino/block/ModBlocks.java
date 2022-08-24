@@ -11,7 +11,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import xyz.limepot.sine_termino.SineTermino;
-import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
