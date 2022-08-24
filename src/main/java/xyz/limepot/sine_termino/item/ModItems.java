@@ -20,7 +20,6 @@ public class ModItems {
         new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
 
 
-
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(SineTermino.MOD_ID, name), item);
     }

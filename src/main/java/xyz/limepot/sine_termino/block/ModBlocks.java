@@ -11,8 +11,10 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import xyz.limepot.sine_termino.SineTermino;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
+
 
     public static final Block TIN_ORE = registerBlock("tin_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
     public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
@@ -31,4 +33,5 @@ public class ModBlocks {
     public static void registerModBlocks() {
         SineTermino.LOGGER.debug("Registering Blocks");
     }
+
 }
