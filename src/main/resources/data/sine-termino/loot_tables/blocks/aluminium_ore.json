@@ -1,9 +1,14 @@
 {
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.7,
-  "ingredient": {
-      "item": "sine-termino:tin_ore"
-  },
-  "result": "sine-termino:tin_ingot"
-}
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+              "type": "minecraft:item",
+              "name": "sine-termino:aluminium_ore"
+            }
+          ]
+        }
+      ]
+    }

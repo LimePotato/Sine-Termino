@@ -1,6 +1,7 @@
 package xyz.limepot.sine_termino.item;
 
 import net.minecraft.util.registry.Registry;
+
 import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 
 import net.minecraft.item.Item;

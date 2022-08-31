@@ -14,11 +14,18 @@ import xyz.limepot.sine_termino.SineTermino;
 
 public class ModBlocks {
 
-
+    //ores
     public static final Block TIN_ORE = registerBlock("tin_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
     public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
-
+    //special blocks
+    public static final Block ARC_FURNACE = registerBlock("arc_furnace", new Block(QuiltBlockSettings.of(Material.METAL).strength(2f)), ItemGroup.MISC);
+    public static final Block ENGINEERING_TABLE = registerBlock("engineering_table", new Block(QuiltBlockSettings.of(Material.METAL).strength(2f)), ItemGroup.MISC);
+    //dont forget to add these to the tools shit thingy in the resources.
+    public static final Block MOON_DUST = registerBlock("moon_dust", new Block(QuiltBlockSettings.of(Material.SNOW_BLOCK).strength(2f)), ItemGroup.MISC);
+    public static final Block MOON_ROCK = registerBlock("moon_rock", new Block(QuiltBlockSettings.of(Material.STONE).strength(2f)), ItemGroup.MISC);
     
+
+
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(SineTermino.MOD_ID, name), block);
