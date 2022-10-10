@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory;
 
 import xyz.limepot.sine_termino.block.ModBlocks;
 import xyz.limepot.sine_termino.item.ModItems;
-import xyz.limepot.sine_termino.world.feature.ModConfiguredFeatures;
 
 public class SineTermino implements ModInitializer {
 
@@ -21,8 +20,6 @@ public class SineTermino implements ModInitializer {
 	@Override
 	public void onInitialize(ModContainer mod) {
 
-
-		ModConfiguredFeatures.registerConfigureFeatures();
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
