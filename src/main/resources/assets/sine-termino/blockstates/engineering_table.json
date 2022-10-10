@@ -1,19 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "sine-termino:block/engineering_table"
-    },
-    "facing=east": {
-      "model": "sine-termino:block/engineering_table",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "sine-termino:block/engineering_table",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "sine-termino:block/engineering_table",
-      "y": 270
     }
   }
 }

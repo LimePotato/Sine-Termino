@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "sine-termino:blocks/moon_rock"
+      "model": "sine-termino:block/moon_rock"
     }
   }
 }

@@ -1,19 +1,7 @@
 {
-  "variants": {
-    "facing=north": {
-      "model": "sine-termino:block/arc_furnace"
-    },
-    "facing=east": {
-      "model": "sine-termino:block/arc_furnace",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "sine-termino:block/arc_furnace",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "sine-termino:block/arc_furnace",
-      "y": 270
-    }
+	"variants": {
+	  "": {
+		"model": "sine-termino:block/arc_furnace"
+	  }
+	}
   }
-}

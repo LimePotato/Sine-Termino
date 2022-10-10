@@ -1,12 +1,24 @@
 {
-  "parent": "block/cube",
-  "textures": {
-    "down": "sine-termino:blocks/engineering_table_alt",
-    "up": "sine-termino:blocks/engineering_table_top",
-    "north": "sine-termino:blocks/arc_furnace_side",
-    "east": "sine-termino:blocks/arc_furnace_side",
-    "south": "sine-termino:blocks/arc_furnace_side",
-    "west": "sine-termino:blocks/arc_furnace_side",
-    "particle": "sine-termino:blocks/engineering_table_alt"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "block/cube",
+	"textures": {
+		"0": "sine-termino:blocks/engineering_table_top",
+		"1": "sine-termino:blocks/engineering_table_side",
+		"2": "sine-termino:blocks/engineering_table_alt",
+		"particle": "sine-termino:blocks/engineering_table_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	]
 }

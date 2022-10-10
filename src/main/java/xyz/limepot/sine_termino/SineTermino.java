@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 
 import xyz.limepot.sine_termino.block.ModBlocks;
 import xyz.limepot.sine_termino.item.ModItems;
+import xyz.limepot.sine_termino.world.feature.ModConfiguredFeatures;
 
 public class SineTermino implements ModInitializer {
 
@@ -16,13 +17,20 @@ public class SineTermino implements ModInitializer {
 	// It is considered best practice to use your mod name as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("Sine Termino");
+	
+
 
 	@Override
 	public void onInitialize(ModContainer mod) {
 
 
+		//ModConfiguredFeatures MUST ALWAYS be called first
+		ModConfiguredFeatures.registerConfiguredFeatures();
+		//ModConfiguredFeatures MUST ALWAYS be called first
+		
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		
 
 		
 		LOGGER.warn("Initialization Hijacked!!!!");
