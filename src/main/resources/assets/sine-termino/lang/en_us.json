@@ -11,5 +11,6 @@
   "itemGroup.sine-termino": "Sine Termino",
   "block.sine-termino.aluminium_ore": "Aluminium Ore",
   "block.sine-termino.moon_dust": "Moon Dust",
-  "block.sine-termino.moon_rock": "Moon Rock"
+  "block.sine-termino.moon_rock": "Moon Rock",
+  "item.sine-termino.pig_iron_ingot": "Pig Iron Ingot"
 }

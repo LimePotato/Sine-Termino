@@ -20,6 +20,9 @@ public class ModItems {
     public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot", 
         new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item PIG_IRON_INGOT = registerItem("pig_iron_ingot", 
+        new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(SineTermino.MOD_ID, name), item);

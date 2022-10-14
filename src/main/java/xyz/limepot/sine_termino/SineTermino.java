@@ -35,13 +35,8 @@ public class SineTermino implements ModInitializer {
 		
 		LOGGER.warn("Initialization Hijacked!!!!");
 		LOGGER.info("~=============================================~", mod.metadata().name());
-		LOGGER.info("~ Ouroboros Process Initialized....", mod.metadata().name());
-		LOGGER.info("~ SONIA Initialized....", mod.metadata().name());
-		LOGGER.info("~ Enabling SONIA.ChildProcess....", mod.metadata().name());
-		LOGGER.info("~ Child Process 'SIDIOS' Initialized....", mod.metadata().name());
-		LOGGER.info("~ .............", mod.metadata().name());
-		LOGGER.info("~ .............", mod.metadata().name());
 		LOGGER.info("~ We know everything about you.", mod.metadata().name());
 		LOGGER.info("~=============================================~", mod.metadata().name());
+		LOGGER.info("THOSE WORDS AREN'T IN THE BIBLE");
 	}
 }
