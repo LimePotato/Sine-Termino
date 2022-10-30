@@ -10,6 +10,7 @@ import xyz.limepot.sine_termino.item.ModItems;
 import xyz.limepot.sine_termino.world.feature.ModConfiguredFeatures;
 
 public class SineTermino implements ModInitializer {
+	
 
 	public static final String MOD_ID = "sine-termino";
 

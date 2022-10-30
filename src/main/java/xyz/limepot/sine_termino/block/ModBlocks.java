@@ -12,6 +12,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import xyz.limepot.sine_termino.SineTermino;
 
+//NOTE: this file only registers the blocks, for more indepth block coding, make a new java file in "BlockName.java" Format
+//and make extra code there.
+
 public class ModBlocks {
 
     //ores

@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "sine-termino:blocks/arc_furnace_front",
 		"1": "sine-termino:blocks/arc_furnace_bottom",
-		"particle": "sine-termino:blocks/arc_furnace_side"
+		"particle": "sine-termino:blocks/arc_furnace_bottom"
 	},
 	"elements": [
 		{
