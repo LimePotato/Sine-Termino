@@ -10,7 +10,7 @@ import xyz.limepot.sine_termino.item.ModItems;
 import xyz.limepot.sine_termino.world.feature.ModConfiguredFeatures;
 
 public class SineTermino implements ModInitializer {
-	
+
 
 	public static final String MOD_ID = "sine-termino";
 
@@ -18,7 +18,7 @@ public class SineTermino implements ModInitializer {
 	// It is considered best practice to use your mod name as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("Sine Termino");
-	
+
 
 
 	@Override
@@ -28,16 +28,14 @@ public class SineTermino implements ModInitializer {
 		//ModConfiguredFeatures MUST ALWAYS be called first
 		ModConfiguredFeatures.registerConfiguredFeatures();
 		//ModConfiguredFeatures MUST ALWAYS be called first
-		
-		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
-		
 
-		
-		LOGGER.warn("Initialization Hijacked!!!!");
-		LOGGER.info("~=============================================~", mod.metadata().name());
-		LOGGER.info("~ We know everything about you.", mod.metadata().name());
-		LOGGER.info("~=============================================~", mod.metadata().name());
-		LOGGER.info("THOSE WORDS AREN'T IN THE BIBLE");
+		ModItems.registerModItems();
+		LOGGER.info(MOD_ID + ": Items Registered");
+		ModBlocks.registerModBlocks();
+		LOGGER.info(MOD_ID + ": Blocks Registered");
+
+
+
+		LOGGER.warn("Sine Termino has initialized.");
 	}
 }

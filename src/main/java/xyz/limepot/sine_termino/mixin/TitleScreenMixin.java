@@ -12,6 +12,6 @@ import xyz.limepot.sine_termino.SineTermino;
 public class TitleScreenMixin {
 	@Inject(method = "init", at = @At("TAIL"))
 	public void onInit(CallbackInfo ci) {
-		SineTermino.LOGGER.info("Nulla Fati. Mixed In.");
+		SineTermino.LOGGER.info("Minced in.");
 	}
 }

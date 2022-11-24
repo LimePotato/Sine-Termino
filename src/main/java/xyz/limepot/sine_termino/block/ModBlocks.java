@@ -26,7 +26,7 @@ public class ModBlocks {
     //dont forget to add these to the tools shit thingy in the resources.
     public static final Block MOON_DUST = registerBlock("moon_dust", new Block(QuiltBlockSettings.of(Material.SNOW_BLOCK).strength(2f)), ItemGroup.MISC);
     public static final Block MOON_ROCK = registerBlock("moon_rock", new Block(QuiltBlockSettings.of(Material.STONE).strength(2f)), ItemGroup.MISC);
-    
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
@@ -35,12 +35,12 @@ public class ModBlocks {
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
-        return Registry.register(Registry.ITEM, new Identifier(SineTermino.MOD_ID, name), 
+        return Registry.register(Registry.ITEM, new Identifier(SineTermino.MOD_ID, name),
         new BlockItem(block, new QuiltItemSettings().group(tab)));
     }
 
     public static void registerModBlocks() {
-        SineTermino.LOGGER.debug("Registering Blocks");
+        SineTermino.LOGGER.debug("Registering Blocks...");
     }
 
 }
