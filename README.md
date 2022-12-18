@@ -2,7 +2,6 @@
 
 Modern Space and Technology mod, built for Quilt.
 
-##Install
 ### Requirements:
  - Minecraft 1.19.2
  - [Quilt Mod Loader](https://quiltmc.org)
