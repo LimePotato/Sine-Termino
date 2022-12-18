@@ -18,8 +18,31 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "fd18721b2904e615",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main/Balance/Tool Levels.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc24f81eba164238",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Main/Recipes/Crafting/Engineering Table.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 275.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "278b0a793ac90f02",
@@ -136,10 +160,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "642f805ef1a60e3a",
+  "active": "6be0d3433f0d1f6a",
   "lastOpenFiles": [
-    "IdeaBoard.excalidraw",
     "Main/Research Tree.excalidraw.md",
-    "Main/Todo.md"
+    "Main/Recipes/Crafting/Engineering Table.excalidraw.md",
+    "Pasted Image 20221216210105_684.png",
+    "Pasted Image 20221216210120_686.png",
+    "Main/Resources/assets/sine-termino/textures/item/devtool.png",
+    "Main/Resources/assets/sine-termino/icon.png",
+    "Main/Recipes/Crafting/Engineering Table.md",
+    "Main/Todo.md",
+    "IdeaBoard.excalidraw"
   ]
 }

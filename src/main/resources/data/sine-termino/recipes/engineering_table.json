@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WW ",
+    "RR "
+  ],
+  "key": {
+    "W": {
+      "item": "sine-termino:tin_ingot"
+    },
+    "R": {
+      "item": "sine-termino:aluminium_ingot"
+    }
+  },
+  "result": {
+    "item": "sine-termino:engineering_table",
+    "count": 1
+  }
+}
+

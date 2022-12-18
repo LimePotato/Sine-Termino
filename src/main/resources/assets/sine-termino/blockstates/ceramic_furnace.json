@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "sine-termino:block/ceramic_furnace"
+    },
+    "lit=true": {
+      "model": "sine-termino:block/ceramic_furnace_lit"
+    }
+  }
+}

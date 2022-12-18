@@ -3,7 +3,7 @@
 	"quilt_loader": {
 		"group": "xyz.limepot",
 		"id": "sinetermino",
-		"version": "InDev 0.0.1+1.19",
+		"version": "Dev 0.0.1+1.19",
 		"metadata": {
 			"name": "Sine Termino",
 			"description": "Research rocketry, fly them to space, and discover the great beyond!",
@@ -20,7 +20,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "xyz.limepot.sine_termino.SineTermino"
+			"init": "xyz.limepot.sine_termino.SineTermino",
+			"clientmod": "xyz.limepot.sine_termino.SineTerminoClient"
 		},
 		"depends": [
 			{

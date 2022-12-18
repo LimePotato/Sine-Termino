@@ -11,6 +11,8 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import xyz.limepot.sine_termino.SineTermino;
+import xyz.limepot.sine_termino.block.custom.ArcFurnaceBlock;
+import xyz.limepot.sine_termino.block.custom.CeramicFurnaceBlock;
 
 //NOTE: this file only registers the blocks, for more indepth block coding, make a new java file in "BlockName.java" Format
 //and make extra code there.
@@ -18,14 +20,22 @@ import xyz.limepot.sine_termino.SineTermino;
 public class ModBlocks {
 
     //ores
-    public static final Block TIN_ORE = registerBlock("tin_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
-    public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore", new Block(QuiltBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
+    public static final Block TIN_ORE = registerBlock("tin_ore", new Block(QuiltBlockSettings.of(Material.STONE)
+			.strength(4f).requiresTool()), ItemGroup.MISC);
+    public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore", new Block(QuiltBlockSettings.of(Material.STONE)
+			.strength(4f).requiresTool()), ItemGroup.MISC);
     //special blocks
-    public static final Block ARC_FURNACE = registerBlock("arc_furnace", new Block(QuiltBlockSettings.of(Material.METAL).strength(2f)), ItemGroup.MISC);
-    public static final Block ENGINEERING_TABLE = registerBlock("engineering_table", new Block(QuiltBlockSettings.of(Material.METAL).strength(2f)), ItemGroup.MISC);
-    //dont forget to add these to the tools shit thingy in the resources.
-    public static final Block MOON_DUST = registerBlock("moon_dust", new Block(QuiltBlockSettings.of(Material.SNOW_BLOCK).strength(2f)), ItemGroup.MISC);
-    public static final Block MOON_ROCK = registerBlock("moon_rock", new Block(QuiltBlockSettings.of(Material.STONE).strength(2f)), ItemGroup.MISC);
+    public static final Block ARC_FURNACE = registerBlock("arc_furnace", new ArcFurnaceBlock(QuiltBlockSettings.of(Material.METAL)
+			.strength(2f)), ItemGroup.MISC);
+    public static final Block ENGINEERING_TABLE = registerBlock("engineering_table", new Block(QuiltBlockSettings.of(Material.METAL)
+			.strength(2f)), ItemGroup.MISC);
+	public static final Block CERAMIC_FURNACE = registerBlock("ceramic_furnace", new CeramicFurnaceBlock(QuiltBlockSettings.of(Material.STONE)
+			.nonOpaque().strength(2f).luminance(state -> state.get(CeramicFurnaceBlock.LIT) ? 7 : 0)), ItemGroup.MISC);
+    //don't forget to add these to the tools shit thingy in the resources.
+    public static final Block MOON_DUST = registerBlock("moon_dust", new Block(QuiltBlockSettings.of(Material.SNOW_BLOCK)
+			.strength(2f)), ItemGroup.MISC);
+    public static final Block MOON_ROCK = registerBlock("moon_rock", new Block(QuiltBlockSettings.of(Material.STONE)
+			.strength(2f)), ItemGroup.MISC);
 
 
 
