@@ -23,8 +23,6 @@ public class SineTermino implements ModInitializer {
 
 	@Override
 	public void onInitialize(ModContainer mod) {
-
-
 		//ModConfiguredFeatures MUST ALWAYS be called first
 		ModConfiguredFeatures.registerConfiguredFeatures();
 		//ModConfiguredFeatures MUST ALWAYS be called first
