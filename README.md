@@ -6,7 +6,6 @@ Modern Space and Technology mod, built for Quilt.
  - Minecraft 1.19.2
  - [Quilt Mod Loader](https://quiltmc.org)
  - [Quilted Fabric API](https://modrinth.com/mod/qsl)
- - [Ketchup Core](https://github.com/LimePotato/ketchup-core/releases)
  - [Latest Release](https://github.com/LimePotato/Sine-Termino/releases)
 ###
 
