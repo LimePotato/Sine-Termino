@@ -3,7 +3,7 @@
 	"quilt_loader": {
 		"group": "xyz.limepot",
 		"id": "sinetermino",
-		"version": "Dev 0.0.2+1.19",
+		"version": "Dev 0.0.2+1.19.3",
 		"metadata": {
 			"name": "Sine Termino",
 			"description": "Research rocketry, fly them to space, and discover the great beyond!",
@@ -25,15 +25,15 @@
 		"depends": [
 			{
 				"id": "quilt_loader",
-				"versions": ">=0.17.0-"
+				"versions": ">=0.17.6-"
 			},
 			{
 				"id": "quilted_fabric_api",
-				"versions": ">=4.0.0-"
+				"versions": ">=5.0.0-"
 			},
 			{
 				"id": "minecraft",
-				"versions": ">=1.19.2"
+				"versions": ">=1.19.3"
 			}
 		]
 	},
