@@ -10,7 +10,7 @@ Modern Space and Technology mod, built for Quilt.
  - [Latest Release](https://github.com/LimePotato/Sine-Termino/releases)
 ###
 
-##Mod Name
+## Mod Name
 The Current mod name is likely WIP, chatGPT suggested a few names for me:
 
 "It can be challenging to come up with a new name for a mod, especially one that fits the style of other Fabric or Quilt mods. Here are a few suggestions for alternative names for your mod that might fit the style of Fabric and Quilt mods:
