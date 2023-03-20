@@ -1,6 +1,10 @@
 package xyz.limepot.sine_termino.item;
 
-import net.minecraft.util.registry.Registry;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 
 import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 
@@ -11,23 +15,24 @@ import xyz.limepot.sine_termino.SineTermino;
 
 public class ModItems {
 
-    public static final Item TIN_INGOT = registerItem("tin_ingot", 
-        new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
+    public static final Item TIN_INGOT = registerItem("tin_ingot",
+        new Item(new QuiltItemSettings()));
 
-    public static final Item BRONZE_INGOT = registerItem("bronze_ingot", 
-        new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
+    public static final Item BRONZE_INGOT = registerItem("bronze_ingot",
+        new Item(new QuiltItemSettings()));
 
-    public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot", 
-        new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
+    public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot",
+        new Item(new QuiltItemSettings()));
 
-    public static final Item PIG_IRON_INGOT = registerItem("pig_iron_ingot", 
-        new Item(new QuiltItemSettings().group(ItemGroup.MISC)));
+    public static final Item PIG_IRON_INGOT = registerItem("pig_iron_ingot",
+        new Item(new QuiltItemSettings()));
+
 
 
     private static Item registerItem(String name, Item item){
-        return Registry.register(Registry.ITEM, new Identifier(SineTermino.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(SineTermino.MOD_ID, name), item);
     }
-    
+
     public static void registerModItems() {
         SineTermino.LOGGER.info("Registering Items....");
     }

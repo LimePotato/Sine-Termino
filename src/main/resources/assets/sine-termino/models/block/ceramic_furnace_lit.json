@@ -2,8 +2,8 @@
   "credit": "Made with Blockbench",
   "texture_size": [32, 32],
   "textures": {
-    "0": "sine-termino:blocks/ceramic_furnace_hot",
-    "particle": "sine-termino:blocks/ceramic_furnace_hot"
+    "0": "sine-termino:block/ceramic_furnace_hot",
+    "particle": "sine-termino:block/ceramic_furnace_hot"
   },
   "elements": [
     {

@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/cube",
 	"textures": {
-		"0": "sine-termino:blocks/engineering_table_top",
-		"1": "sine-termino:blocks/engineering_table_side",
-		"2": "sine-termino:blocks/engineering_table_alt",
-		"particle": "sine-termino:blocks/engineering_table_top"
+		"0": "sine-termino:block/engineering_table_top",
+		"1": "sine-termino:block/engineering_table_side",
+		"2": "sine-termino:block/engineering_table_alt",
+		"particle": "sine-termino:block/engineering_table_top"
 	},
 	"elements": [
 		{

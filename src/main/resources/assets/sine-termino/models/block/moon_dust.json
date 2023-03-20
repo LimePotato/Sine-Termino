@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "sine-termino:blocks/moon_dust"
+    "all": "sine-termino:block/moon_dust"
   }
 }

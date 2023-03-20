@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/cube",
 	"textures": {
-		"0": "sine-termino:blocks/arc_furnace_front",
-		"1": "sine-termino:blocks/arc_furnace_bottom",
-		"particle": "sine-termino:blocks/arc_furnace_bottom"
+		"0": "sine-termino:block/arc_furnace_front",
+		"1": "sine-termino:block/arc_furnace_bottom",
+		"particle": "sine-termino:block/arc_furnace_bottom"
 	},
 	"elements": [
 		{
