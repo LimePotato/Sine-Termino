@@ -10,8 +10,7 @@ import org.slf4j.LoggerFactory;
 
 import xyz.limepot.sine_termino.block.ModBlocks;
 import xyz.limepot.sine_termino.item.ModItems;
-import xyz.limepot.sine_termino.item.ModItems.*;import xyz.limepot.sine_termino.item.ModItems;
-import xyz.limepot.sine_termino.world.feature.ModConfiguredFeatures;
+import xyz.limepot.sine_termino.item.ModItems.*;
 
 import static xyz.limepot.sine_termino.block.ModBlocks.*;
 import static xyz.limepot.sine_termino.item.ModItems.*;
@@ -31,7 +30,7 @@ public class SineTermino implements ModInitializer {
 	@Override
 	public void onInitialize(ModContainer mod) {
 		//ModConfiguredFeatures MUST ALWAYS be called first
-		ModConfiguredFeatures.registerConfiguredFeatures();
+		//ModConfiguredFeatures.registerConfiguredFeatures();
 		//ModConfiguredFeatures MUST ALWAYS be called first
 
 		ModItems.registerModItems();
@@ -39,40 +38,50 @@ public class SineTermino implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		LOGGER.info(MOD_ID + ": Blocks Registered");
 
-		//CREATIVE TABS
-			//ITEMS
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
-			content.addAfter(Items.IRON_BARS, TIN_INGOT);
-		});
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
-			content.addAfter(Items.IRON_BARS, BRONZE_INGOT);
-		});
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
-			content.addAfter(Items.IRON_BARS, ALUMINIUM_INGOT);
-		});
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
-			content.addAfter(Items.IRON_BARS, PIG_IRON_INGOT);
-		});
-			//BLOCKS
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
-			content.addAfter(Items.DEEPSLATE_DIAMOND_ORE, TIN_ORE);
-		});
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
-			content.addAfter(Items.DEEPSLATE_DIAMOND_ORE, ALUMINIUM_ORE);
-		});
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
-			content.addAfter(Items.FARMLAND, MOON_DUST);
-		});
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
-			content.addAfter(Items.FARMLAND, MOON_ROCK);
-		});
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL_BLOCKS).register(content -> {
-			content.addAfter(Items.BLAST_FURNACE, ARC_FURNACE);
-		});
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL_BLOCKS).register(content -> {
-			content.addAfter(Items.BLAST_FURNACE, CERAMIC_FURNACE);
-		});
 
+		//CREATIVE TABS
+		SineTermino.LOGGER.debug("Registering Creative Tab Entries...");
+			//ITEMS
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+				content.addAfter(Items.IRON_BARS, TIN_INGOT);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+				content.addAfter(Items.IRON_BARS, BRONZE_INGOT);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+				content.addAfter(Items.IRON_BARS, ALUMINIUM_INGOT);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+				content.addAfter(Items.IRON_BARS, PIG_IRON_INGOT);
+			});
+				//BLOCKS
+					//ORES
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
+				content.addAfter(Items.DEEPSLATE_DIAMOND_ORE, TIN_ORE);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
+				content.addAfter(Items.DEEPSLATE_DIAMOND_ORE, DEEPSLATE_TIN_ORE);
+			});
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
+				content.addAfter(Items.DEEPSLATE_DIAMOND_ORE, ALUMINIUM_ORE);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
+				content.addAfter(Items.DEEPSLATE_DIAMOND_ORE, DEEPSLATE_ALUMINIUM_ORE);
+			});
+			//OTHER BLOCKS
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
+				content.addAfter(Items.FARMLAND, MOON_DUST);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
+				content.addAfter(Items.FARMLAND, MOON_ROCK);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL_BLOCKS).register(content -> {
+				content.addAfter(Items.BLAST_FURNACE, ARC_FURNACE);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL_BLOCKS).register(content -> {
+				content.addAfter(Items.BLAST_FURNACE, CERAMIC_FURNACE);
+			});
+		LOGGER.info(MOD_ID + ": Creative Tab Entries Registered");
 
 
 

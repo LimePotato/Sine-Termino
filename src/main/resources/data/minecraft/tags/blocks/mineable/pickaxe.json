@@ -2,6 +2,8 @@
     "replace": false,
     "values": [
         "sine-termino:tin_ore",
-        "sine-termino:aluminium_ore"
+        "sine-termino:aluminium_ore",
+        "sine-termino:deepslate_aluminium_ore",
+        "sine-termino:deepslate_tin_ore"
     ]
 }

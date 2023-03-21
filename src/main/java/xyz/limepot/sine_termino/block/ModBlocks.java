@@ -25,6 +25,12 @@ public class ModBlocks {
 			.strength(4f).requiresTool()));
     public static final Block ALUMINIUM_ORE = registerBlock("aluminium_ore", new Block(QuiltBlockSettings.of(Material.STONE)
 			.strength(4f).requiresTool()));
+		//Deepslate Variety
+		public static final Block DEEPSLATE_ALUMINIUM_ORE = registerBlock("deepslate_aluminium_ore", new Block(QuiltBlockSettings.of(Material.STONE)
+				.strength(4f).requiresTool()));
+	public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore", new Block(QuiltBlockSettings.of(Material.STONE)
+			.strength(4f).requiresTool()));
+
     //special blocks
     public static final Block ARC_FURNACE = registerBlock("arc_furnace", new ArcFurnaceBlock(QuiltBlockSettings.of(Material.METAL)
 			.strength(2f)));

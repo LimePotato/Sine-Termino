@@ -6,6 +6,7 @@ classes/
 
 # Quilt Loom
 run/
+!saves
 
 # Eclipse
 *.launch
@@ -30,4 +31,5 @@ workspace/
 *.DS_Store
 
 #Obsidian
-Sine Termino/
+.obsidian/
+obsidian/sinetermino/.obsidian/

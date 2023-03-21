@@ -27,6 +27,19 @@ public class ModItems {
     public static final Item PIG_IRON_INGOT = registerItem("pig_iron_ingot",
         new Item(new QuiltItemSettings()));
 
+	//RAW
+	public static final Item RAW_PIG_IRON = registerItem("raw_pig_iron",
+			new Item(new QuiltItemSettings()));
+
+	public static final Item RAW_ALUMINIUM = registerItem("raw_aluminium",
+			new Item(new QuiltItemSettings()));
+
+	public static final Item RAW_TIN = registerItem("raw_tin",
+			new Item(new QuiltItemSettings()));
+
+	public static final Item RAW_BRONZE = registerItem("raw_bronze",
+			new Item(new QuiltItemSettings()));
+
 
 
     private static Item registerItem(String name, Item item){

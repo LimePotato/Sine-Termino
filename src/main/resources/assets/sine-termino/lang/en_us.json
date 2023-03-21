@@ -1,10 +1,8 @@
 {
   "block.sine-termino.dev_ship": "Dev Ship",
-  "item.sine-termino.copper_ingot": "Copper Ingot",
   "item.sine-termino.aluminium_ingot": "Aluminium Ingot",
   "block.sine-termino.arc_furnace": "Arc Furnace",
   "item.sine-termino.tin_ingot": "Tin Ingot",
-  "block.sine-termino.copper_ore": "Copper Ore",
   "block.sine-termino.tin_ore": "Tin Ore",
   "block.sine-termino.engineering_table": "Engineering Table",
   "item.sine-termino.bronze_ingot": "Bronze Ingot",
@@ -13,5 +11,11 @@
   "block.sine-termino.moon_dust": "Moon Dust",
   "block.sine-termino.moon_rock": "Moon Rock",
   "item.sine-termino.pig_iron_ingot": "Pig Iron Ingot",
-  "block.sine-termino.ceramic_furnace": "Ceramic Furnace"
+  "block.sine-termino.ceramic_furnace": "Ceramic Furnace",
+  "item.sine-termino.raw_pig_iron": "Raw Pig Iron",
+  "item.sine-termino.raw_aluminium": "Raw Aluminium",
+  "item.sine-termino.raw_tin": "Raw Tin",
+  "item.sine-termino.raw_bronze": "Raw Bronze",
+  "block.sine-termino.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.sine-termino.deepslate_aluminium_ore": "Deepslate Aluminium Ore"
 }
