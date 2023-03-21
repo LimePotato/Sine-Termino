@@ -3,7 +3,7 @@
     "cookingtime": 200,
     "experience": 0.7,
     "ingredient": {
-        "item": "sine-termino:aluminium_ore"
+        "item": "sine-termino:raw_aluminium"
     },
     "result": "sine-termino:aluminium_ingot"
 }

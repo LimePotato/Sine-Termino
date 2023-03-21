@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"Wiki/Blocks/Ceramic Furnace.md","id":"d944045fc1d52eae","x":-1300,"y":-580,"width":400,"height":160},
+		{"type":"file","file":"Wiki/Items/Raw Bronze.md","id":"06f29cc0dcf61b5d","x":-1300,"y":-380,"width":400,"height":240}
+	],
+	"edges":[
+		{"id":"d9c46d0880523c28","fromNode":"d944045fc1d52eae","fromSide":"bottom","toNode":"06f29cc0dcf61b5d","toSide":"top"}
+	]
+}

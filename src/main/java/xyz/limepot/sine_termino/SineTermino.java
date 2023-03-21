@@ -54,6 +54,20 @@ public class SineTermino implements ModInitializer {
 			ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
 				content.addAfter(Items.IRON_BARS, PIG_IRON_INGOT);
 			});
+				//RAW ALLOY
+
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+				content.addAfter(Items.RAW_GOLD, RAW_TIN);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+				content.addAfter(Items.RAW_GOLD, RAW_BRONZE);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+				content.addAfter(Items.RAW_GOLD, RAW_ALUMINIUM);
+			});
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+				content.addAfter(Items.RAW_GOLD, RAW_PIG_IRON);
+			});
 				//BLOCKS
 					//ORES
 			ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
@@ -62,7 +76,7 @@ public class SineTermino implements ModInitializer {
 			ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
 				content.addAfter(Items.DEEPSLATE_DIAMOND_ORE, DEEPSLATE_TIN_ORE);
 			});
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
+			ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {
 				content.addAfter(Items.DEEPSLATE_DIAMOND_ORE, ALUMINIUM_ORE);
 			});
 			ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(content -> {

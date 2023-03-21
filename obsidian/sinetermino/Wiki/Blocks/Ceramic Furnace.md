@@ -1,0 +1,2 @@
+- Made with Clay (Recipe WIP)
+- Used to make Bronze (Iron + Copper)
