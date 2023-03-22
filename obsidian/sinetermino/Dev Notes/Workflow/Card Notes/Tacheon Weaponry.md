@@ -1,0 +1,1 @@
+Shoot at location, and when ouroboros goes there, the arrow appears and hits it.

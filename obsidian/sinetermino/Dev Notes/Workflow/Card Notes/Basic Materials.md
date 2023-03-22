@@ -1,0 +1,6 @@
+- [x] initial ingots
+- [x] initial ores
+- [x] initial ore chunks
+- [x] make ores drop themselves or an ore chunk
+- [x] make ore chunks smelt into ingots
+- [ ] ore generation

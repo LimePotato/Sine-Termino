@@ -1,2 +1,2 @@
 - Made by putting Raw Iron + Raw Copper or Iron Ingot + Copper Ingot in the Ceramic Furnace
-- Can be smelted in the Furnace into Bronze Ingots (Maybe I'll make this happen in Arc Furnace?)
+- Can be smelted in the Furnace into [[Bronze Ingot]] (Maybe I'll make this happen in Arc Furnace?)

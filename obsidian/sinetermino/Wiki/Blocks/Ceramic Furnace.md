@@ -1,2 +1,2 @@
-- Made with Clay (Recipe WIP)
-- Used to make Bronze & Pig Iron
+- Made with Clay [[Ceramic Furnace Recipe]]
+- Used to make [[Bronze Ingot]] & [[Pig Iron Ingot]]
