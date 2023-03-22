@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " W ",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "sine-termino:ceramic_furnace",
+    "count": 1
+  }
+}
+

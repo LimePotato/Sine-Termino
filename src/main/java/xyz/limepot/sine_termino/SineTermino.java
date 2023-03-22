@@ -15,6 +15,7 @@ import xyz.limepot.sine_termino.item.ModItems.*;
 import static xyz.limepot.sine_termino.block.ModBlocks.*;
 import static xyz.limepot.sine_termino.item.ModItems.*;
 
+@SuppressWarnings("ALL")
 public class SineTermino implements ModInitializer {
 
 
@@ -34,9 +35,9 @@ public class SineTermino implements ModInitializer {
 		//ModConfiguredFeatures MUST ALWAYS be called first
 
 		ModItems.registerModItems();
-		LOGGER.info(MOD_ID + ": Items Registered");
+		LOGGER.debug(MOD_ID + ": Items Registered");
 		ModBlocks.registerModBlocks();
-		LOGGER.info(MOD_ID + ": Blocks Registered");
+		LOGGER.debug(MOD_ID + ": Blocks Registered");
 
 
 		//CREATIVE TABS
@@ -95,10 +96,10 @@ public class SineTermino implements ModInitializer {
 			ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL_BLOCKS).register(content -> {
 				content.addAfter(Items.BLAST_FURNACE, CERAMIC_FURNACE);
 			});
-		LOGGER.info(MOD_ID + ": Creative Tab Entries Registered");
+		LOGGER.debug(MOD_ID + ": Creative Tab Entries Registered");
 
 
 
-		LOGGER.warn("Sine Termino has initialized.");
+		LOGGER.warn("Sine Termino has initialized, See you in the stars!");
 	}
 }

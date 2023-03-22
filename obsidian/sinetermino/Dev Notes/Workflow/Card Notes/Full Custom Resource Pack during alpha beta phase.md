@@ -1,0 +1,1 @@
+make em look goooooood and possibly functionable (im talkin animated, special conditions, and special shading)

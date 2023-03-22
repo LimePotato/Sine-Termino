@@ -47,7 +47,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        SineTermino.LOGGER.info("Registering Items....");
+        SineTermino.LOGGER.debug("Registering Items....");
     }
 
 }

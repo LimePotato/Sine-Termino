@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ARA",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "sine-termino:tin_ingot"
+    },
+    "A": {
+      "item": "sine-termino:aluminium_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "sine-termino:engineering_table",
+    "count": 1
+  }
+}
+
