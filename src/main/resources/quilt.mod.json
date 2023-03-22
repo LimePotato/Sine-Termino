@@ -38,5 +38,12 @@
 			}
 		]
 	},
-	"mixin": "sine_termino.mixins.json"
+	"mixin": "sine_termino.mixins.json",
+	"modmenu:api": true,
+	"modmenu": {
+		"update_checker": true,
+		"links": {
+			"modmenu.discord": "https://limepot.xyz/redir/discord"
+		}
+	}
 }

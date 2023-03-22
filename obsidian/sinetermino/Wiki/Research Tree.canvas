@@ -1,9 +1,11 @@
 {
 	"nodes":[
 		{"type":"file","file":"Wiki/Blocks/Ceramic Furnace.md","id":"d944045fc1d52eae","x":-900,"y":-640,"width":400,"height":420},
-		{"id":"c2c51b25a7dcb35d","x":-820,"y":-480,"width":240,"height":240,"type":"file","file":"Wiki/Recipes/Crafting/Ceramic Furnace Recipe.md"},
-		{"id":"233a5c63535c5a19","x":-580,"y":-160,"width":400,"height":460,"type":"file","file":"Wiki/Items/Raw Pig Iron.md"},
-		{"type":"file","file":"Wiki/Items/Raw Bronze.md","id":"06f29cc0dcf61b5d","x":-1220,"y":-160,"width":400,"height":460}
+		{"type":"file","file":"Wiki/Recipes/Crafting/Ceramic Furnace Recipe.md","id":"c2c51b25a7dcb35d","x":-820,"y":-480,"width":240,"height":240},
+		{"type":"file","file":"Wiki/Items/Raw Pig Iron.md","id":"233a5c63535c5a19","x":-580,"y":-160,"width":400,"height":460},
+		{"type":"file","file":"Wiki/Items/Raw Bronze.md","id":"06f29cc0dcf61b5d","x":-1220,"y":-160,"width":400,"height":460},
+		{"id":"e563c3db5a19e858","x":300,"y":-620,"width":400,"height":400,"type":"file","file":"Wiki/Blocks/Arc Furnace.md"},
+		{"id":"1011836522718c12","x":380,"y":-480,"width":240,"height":240,"type":"file","file":"Wiki/Recipes/Crafting/Arc Furnace Recipe.md"}
 	],
 	"edges":[
 		{"id":"d9c46d0880523c28","fromNode":"d944045fc1d52eae","fromSide":"bottom","toNode":"06f29cc0dcf61b5d","toSide":"top"},
